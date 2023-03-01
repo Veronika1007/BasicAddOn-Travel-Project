@@ -1,0 +1,102 @@
+body {
+  background: #eac7c7;
+}
+h1,
+h2 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+img {
+  transition: all 150ms ease-in-out;
+  border-radius: 20px;
+}
+
+img:hover {
+  transform: scale(1.4);
+  filter: opacity(90%);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 25px;
+}
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+}
+a:link {
+  text-decoration: none;
+}
+.container {
+  background: white;
+  margin: 10px auto;
+  padding: 20px;
+  max-width: 800px;
+  text-align: center;
+  border-radius: 25px;
+}
+.intro-picture {
+  width: 500px;
+  height: 400px;
+}
+.grid {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+.grid img {
+  width: 100%;
+  height: 150px;
+}
+.grid img:hover {
+  transform: scale(2);
+}
+.booking {
+  display: block;
+  margin: 0 auto;
+  color: #460c68;
+  border-radius: 15px;
+  padding: 10px;
+  transition: all 300ms ease-in-out;
+}
+.booking:hover {
+  background: #460c68;
+  color: white;
+}
+.darkModeButton {
+  background: #460c68;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+  transition: all 300ms ease-in-out;
+}
+.darkModeButton:hover {
+  background: white;
+  color: #460c68;
+}
+.dark {
+  background: #460c68;
+  color: #eac7c7;
+}
+
+.dark .container {
+  background: #460c68;
+}
+.dark .darkModeButton {
+  background: white;
+  color: #460c68;
+  border-radius: 15px;
+  padding: 10px;
+  transition: all 300ms ease-in-out;
+}
+.dark .booking:hover {
+  background: #460c68;
+  color: white;
+  border-color: white;
+  border-width: 8px;
+}
